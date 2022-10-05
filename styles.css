@@ -1,0 +1,11 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Teko', sans-serif;
+  font-size: 110%;
+}
+
+.container {
+  border: 5px double black;
+  padding: 10px;
+}

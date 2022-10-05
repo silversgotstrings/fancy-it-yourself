@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fancy It Yourself!</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Fancy It Yourself!</h1>
+      <p id="description">Help me learn about your Favourite Fancy Words!</p>
+
+      <form id="survey-form">
+        <div class="form-control">
+          <label id="name-label">Name:
+            <input id="name" type="text" placeholder="Enter your name" required />
+          </label>
+        </div>
+        <div class="form-control">
+          <label id="email-label">Email:
+            <input id="email" type="email" placeholder="Enter your email" required />
+          </label>
+        </div>
+        <div class="form-control">
+          <label id="number-label">Age:
+            <input id="number" type="number" min="3" max="200" placeholder="Age" />
+          </label>
+        </div>
+
+        <div class="form-control">
+          <p>What's Your Fancy?</p>
+          <select id="dropdown">
+            <option>Fancy Nancy and the Mermaid Ballet</option>
+            <option>Fancy Nancy: Heart to Heart</option>
+            <option>Fancy Nancy: Poison Ivy Expert</option>
+            <option>Fancy Nancy: Oodles of Kittens</option>
+            <option>Fancy Nancy and the Boy from Paris</option>
+            <option>Fancy Nancy: Oh La La! It's BEAUTY DAY</option>
+          </select>
+        </div>
+
+        <div class="form-control">
+          <p>Favorite Fancy Word</p>
+          <label>Gorgeous
+          <input type="radio" name="radio-group" value="Gorgeous" />
+          </label>
+          <label>Glamorous
+          <input type="radio" name="radio-group" value="Glamorous" />
+          </label>
+          <label>Dapper
+          <input type="radio" name="radio-group" value="Dapper" />
+          </label>
+        </div>
+
+        <div class="form-control">
+          <p>Fanciest Episode!</p>
+          <label>Paris At Last!
+            <input type="checkbox" value="Paris At Last!" />
+          </label>
+
+          <label> What's Bree's Story?
+            <input type="checkbox" value=What's Bree's Story?" />
+          </label>
+
+          <label>Dazzle Girl's Double
+            <input type="checkbox" value="Dazzle Girl's Double; Dancy Nancy" />
+          </label>
+                                                      <br>
+          <label>Smitten by a Kitten
+            <input type="checkbox" value="Smitten by a Kitten" />
+          </label>
+          <label>The Best Baby Sitter
+            <input type="checkbox" value="The Best Baby Sitter Du Monde" />
+          </label>
+        </div>
+        <div class="form-control">
+          <textarea placeholder="Complétez votre propre poème extraordinaire!"></textarea>
+        </div>
+        <div class="form-control">
+          <button id="submit" type="submit">Splendiferous!</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
